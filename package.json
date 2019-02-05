@@ -1,0 +1,35 @@
+{
+  "name": "flares-backend",
+  "version": "0.0.0",
+  "description": "",
+  "private": true,
+  "main": "app.js",
+  "scripts": {
+    "start": "node ./bin/start",
+    "watch": "nodemon ./bin/start",
+    "test": "mocha --recursive",
+    "lint": "eslint ."
+  },
+  "dependencies": {
+    "axios": "^0.18.0",
+    "cookie-parser": "^1.4.3",
+    "debug": "^4.1.1",
+    "dotenv": "^6.2.0",
+    "express": "^4.16.4",
+    "express-rate-limit": "^3.3.2",
+    "helmet": "^3.15.0",
+    "http-errors": "^1.7.1",
+    "memory-cache": "^0.2.0",
+    "morgan": "^1.9.1",
+    "nodemon": "^1.18.9"
+  },
+  "devDependencies": {
+    "chai": "^4.1.1",
+    "chai-http": "^4.2.0",
+    "eslint": "^5.13.0",
+    "eslint-config-airbnb": "^17.1.0",
+    "eslint-plugin-import": "^2.14.0",
+    "eslint-plugin-jsx-a11y": "^6.1.2",
+    "eslint-plugin-react": "^7.11.1"
+  }
+}
